@@ -1,18 +1,26 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
     </head>
     <body>
-            <div>
+            <div id="top">
                 <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"/>
-                <input type="search" value="검색"/>
+                <input type="search" value="🔍검색"/>
+                <div>
+                    <i class="fas fa-home"></i>
+                    <i class="far fa-paper-plane"></i>
+                    <i class="far fa-compass"></i>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
             </div>
                 <div id="profile">
-            <div>
-        <img src="image/profile.jpg"width="50px"/>
+            <div id="profile_pic">
+        <img src="image/profile.jpg" class="circle_pic"/>
             </div>
-        <div>
-            <h2>half_bottle</h2>
+        <div id="profile_info">
+            <div id="id">half_bottle <i class="fas fa-cog"></i></div>
             <button>프로필 편집</button>
         </div>
                 </div>
@@ -27,48 +35,65 @@
             <a href="https://needleworm.github.io">needleworm.github.io</a><br/>
         </p>
         </div>
+        <div id="highlight_area">
             <div class="highlight">
-        <div>
-            <img src="image/hl 1.jpg"height=35px/>
+        <div class="highlight_pic">
+            <img src="image/hl 1.jpg" class="circle_pic">
         </div>
         <div>
             😊
         </div>
             </div>
             <div class="highlight">
-        <div>
-            <img src="image/hl 2.jpg"height=35px/>
+        <div class="highlight_pic">
+            <img src="image/hl 2.jpg" class="circle_pic"/>
         </div>
         <div>
             😂
         </div>
             </div>
-      <div>
-        <div>
+            <div></div>
+        </div>
+
+      <div id="star_bar">
+        <div class="star">
             게시물<br/>
             133
         </div>
-        <div>
+        <div class="star">
             팔로워<br/>
             408
         </div>
-        <div>
+        <div class="star">
             팔로우<br/>
             189
         </div>
     </div>
-        <div>아이콘이 들어갈 자리</div>
-        <dvi>
-            <img src="image/thumbnails/1.jpg"width="32%"/>
-            <img src="image/thumbnails/2.jpg"width="32%"/>
-            <img src="image/thumbnails/3.jpg"width="32%"/>
-            <img src="image/thumbnails/4.jpg"width="32%"/>
-            <img src="image/thumbnails/5.jpg"width="32%"/>
-            <img src="image/thumbnails/6.jpg"width="32%"/>
-            <img src="image/thumbnails/7.jpg"width="32%"/>
-            <img src="image/thumbnails/8.jpg"width="32%"/>
-            <img src="image/thumbnails/9.jpg"width="32%"/>
-        </dvi>
+        <div id="sub_icons">
+        <div class="selected">
+        <i class="fas fa-border-all"></i></div>
+        <div><i class="fas fa-film"></i></div>
+        <div><i class="far fa-play-circle"></i></div>
+        <div><i class="far fa-bookmark"></i></div>
+        <div><i class="fas fa-user-tag"></i></div>
+        </div>
+        <div>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/1.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/2.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/3.jpg"width="32%" class="thunmbnil"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/4.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/5.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/6.jpg"width="32%" class="thunmbnil"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/7.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/8.jpg"width="32%" class="thunmbnil"/>
+            <img src="image/thumbnails/9.jpg"width="32%" class="thunmbnil"/>
+        </div>
+        </div>
         <div>게시물 썸네일이 들어갈 자리</div>
     </body>
 </html>
